@@ -27,8 +27,8 @@ To get started, make sure that you have the following installed:
  -  The most recent version of Pip
 
 Then follow these simple steps:
- #. Clone this project.
- #. Use `pip install -r requirements.txt` to install the third-party packages
+ 1. Clone this project.
+ 2. Use `pip install -r requirements.txt` to install the third-party packages
     this project uses.
 
 And you're ready to go!
