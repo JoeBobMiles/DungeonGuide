@@ -19,3 +19,16 @@ player. I'm really bad at balancing things and remembering stats, so the idea
 here is to create a system that automates balance checking and statblock output
 so that I don't make the same mistakes I've made in the past (and boy are there
 a lot of those).
+
+## Getting Started
+
+To get started, make sure that you have the following installed:
+ -  Python 3.7+
+ -  The most recent version of Pip
+
+Then follow these simple steps:
+ #. Clone this project.
+ #. Use `pip install -r requirements.txt` to install the third-party packages
+    this project uses.
+
+And you're ready to go!
