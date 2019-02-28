@@ -1,0 +1,13 @@
+
+What are the things we need to take into consideration for computing a monster's
+damage output per round?
+
+Well...
+ 1. Any attack actions it has.
+ 2. Any bonus actions that do damage.
+ 3. Any ability that conditionally does damage.
+ 4. Any ability that passively does damage.
+ 5. Any legendary actions the monster might have.
+ 6. Any spells that do damage that the monster may have access to.
+
+

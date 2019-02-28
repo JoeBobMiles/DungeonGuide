@@ -1,0 +1,14 @@
+A = { The set of all actions a moster can take }
+
+A^M = { M_i = (a_1, a_2, a_3, ..., a_n), where a_j \in A }
+
+DMG(a) = average damage of a
+
+A^M_i = M_i, where M_i \in A^M
+
+DMG(A^M_i) = DMG(M_i) = \Sigma^{|M_i|}_j=1 DMG(a_j), where a_j \in M_i
+
+MAXDMG(A) = max({ DMG(a) for a \in A })
+MAXDMG(A^M) = max({ DMG(M_i) for M_i \in A^M })
+
+d_{max} = max(MAXDMG(A), MAXDMG(A^M))

@@ -1,0 +1,63 @@
+name: Goblin
+size: Small
+type: humanoid (goblinoid)
+alignment:
+  - Neutral
+  - Evil
+armor:
+  class: 15
+  type:
+    - leather armor
+    - sheild
+hitpoints: 2d6
+speed:
+  land: 30
+  fly:
+  swim:
+stats:
+  strength: 8
+  dexterity: 14
+  constitution: 10
+  intelligence: 10
+  wisdom: 8
+  charisma: 8
+skills:
+  stealth: 6
+resistances:
+immunities:
+  damage:
+  condition:
+senses:
+  - type: darkvision
+    distance: 60
+passive_perception: 9
+languages:
+  - Common
+  - Goblin
+abilities:
+  - name: Nimble Escape
+    text: >
+      The goblin can take the Disengage or Hide action as a bonus action on each
+      of its turns.
+multiattack:
+actions:
+  - name: Scimitar
+    type: Melee Weapon Attack
+    to_hit: 4
+    reach: 5
+    targets: 1
+    damage: 1d6+2
+    damage_type: slashing
+    magic: False
+  - name: Shortbow
+    type: Ranged Weapon Attack
+    to_hit: 4
+    range:
+      - 80
+      - 320
+    targets: 1
+    damage: 1d6+2
+    damage_type: piercing
+    magic: False
+reactions:
+legendary_actions:
