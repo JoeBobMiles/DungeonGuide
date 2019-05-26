@@ -1,2 +1,4 @@
 PyYAML>=4.2b1
-pdfminer.six>=20181108
+lxml>=4.3.3
+requests>=2.22.0
+nltk>=3.4.1
